@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    background-color: lightskyblue;
+}
+
+.messages-wrapper{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: Roboto;
+
+
+    background-color: #34495e;
+}
+
+.messages-wrapper h2{
+    color: white;
+    margin-bottom: 20px;
+}
+
+.messages-content{
+    width: 90%;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.message{
+    padding-bottom: 0px;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background-color: beige;
+    border-radius: 3px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.message-sender{
+    font-size: 18px;
+}
+
+.message-topic{
+    font-size: 18px;
+    margin-left: -100px;
+}
+
+.message-delete{
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid red;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    width: 30px;
+    text-align: center;
+    margin-bottom: 3px;
+}

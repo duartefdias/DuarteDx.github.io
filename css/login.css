@@ -1,0 +1,52 @@
+.login-block{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-image: url("../assets/images/world-background.svg");
+    background-position: center 30%;
+}
+
+.inner-login-block{
+     width: 20%;
+     min-width: 255px;
+     height: 20%;
+     min-height: 165px;
+     background-color: rgba(66, 134, 244, 0.6);
+     border-radius: 20px;
+ }
+
+.inner-login-block-edit-info{
+    width: 35%;
+    min-width: 255px;
+    height: 35%;
+    min-height: 165px;
+    background-color: rgba(66, 134, 244, 0.6);
+    border-radius: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.facebook-button{
+    margin-top: 10px;
+}
+
+#cities-dropdown, #countries-dropdown{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#submit-edit-info-form{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 15px;
+    border-radius: 3px;
+
+}
